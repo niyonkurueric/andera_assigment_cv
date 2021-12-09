@@ -103,7 +103,7 @@ h1 {
 }
 
 .bodytext {
-    width: 500px;
+    width: 300px;
     scrollbar-width: thin;
 }
 
@@ -125,7 +125,7 @@ label {
 
 /* media sceeen */
 
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 800px) {
     html,
     body {
         padding-left: 130px;
