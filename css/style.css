@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(48, 48, 49);
+    padding-left: 150px;
+    padding-right: 150px;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    padding: 50px;
+}
+
+.head {
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* background-color: rgb(85, 121, 85); */
+    justify-content: space-between;
+    height: auto;
+}
+
+.lefttext {
+    width: 400px;
+    /* background-color: rgb(143, 136, 136); */
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 7px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+
+.lefttext label {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.lefttext div {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.profile {
+    width: 400px;
+    /* background-color: rgb(44, 43, 43); */
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+/* body cv */
+
+.body {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* background-color: rgb(44, 69, 116); */
+    justify-content: space-between;
+}
+
+.bodytext {
+    width: 500px;
+    overflow-y: scroll;
+    height: 500px;
+    background: #E5E5E5;
+}
+
+.bodyadrees {
+    width: 300px;
+    color: #73808D;
+    font-family: Arial;
+}
+
+h5 {
+    height: 1px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+
+/* media sceeen */
+
+@media screen and (max-width: 1112px) {
+    html,
+    body {
+        padding-left: 130px;
+        padding-right: 130px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    html,
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+}
+
+471
