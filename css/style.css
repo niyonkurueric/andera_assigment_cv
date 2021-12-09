@@ -9,7 +9,6 @@ body {
     background-color: rgb(48, 48, 49);
     padding-left: 150px;
     padding-right: 150px;
-    overflow: hidden;
 }
 
 main {
@@ -17,6 +16,8 @@ main {
     background-color: #fff;
     height: auto;
     padding: 50px;
+    border-top: black 3px solid;
+    border-radius: 10px;
 }
 
 .head {
@@ -38,8 +39,26 @@ main {
 
 h1 {
     font-family: Arial;
-    font-size: 7px;
+    font-size: 10px;
     line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+
+#duration {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+
+#duration1 {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #73808D;
@@ -49,6 +68,7 @@ h1 {
     font-family: Arial;
     font-size: 24px;
     line-height: 28px;
+    padding: 10px;
 }
 
 .lefttext div {
@@ -78,30 +98,30 @@ h1 {
     flex-wrap: wrap-reverse;
     /* background-color: rgb(44, 69, 116); */
     justify-content: space-between;
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
 .bodytext {
     width: 500px;
-    overflow-y: scroll;
-    height: 500px;
-    background: #E5E5E5;
+    scrollbar-width: thin;
+    height: 465px;
 }
 
 .bodyadrees {
     width: 300px;
     color: #73808D;
     font-family: Arial;
+    height: 465px;
 }
 
 h5 {
     height: 1px;
-    text-decoration: underline;
     text-transform: uppercase;
 }
 
 label {
     display: block;
-    padding: 5px;
 }
 
 
@@ -113,6 +133,17 @@ label {
         padding-left: 130px;
         padding-right: 130px;
         overflow-y: scroll;
+    }
+    .bodytext {
+        width: 500px;
+        scrollbar-width: thin;
+        height: auto;
+    }
+    .bodyadrees {
+        width: 300px;
+        color: #73808D;
+        font-family: Arial;
+        height: auto;
     }
 }
 
