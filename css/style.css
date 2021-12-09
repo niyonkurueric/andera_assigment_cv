@@ -14,14 +14,13 @@ body {
 main {
     width: auto;
     background-color: #fff;
-    height: auto;
+    max-height: 100%;
     padding: 50px;
     border-top: black 3px solid;
     border-radius: 10px;
 }
 
 .head {
-    height: 120px;
     display: flex;
     flex-wrap: wrap-reverse;
     /* background-color: rgb(85, 121, 85); */
@@ -95,7 +94,7 @@ h1 {
 /* body cv */
 
 .body {
-    height: auto;
+    max-height: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     /* background-color: rgb(44, 69, 116); */
