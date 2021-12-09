@@ -6,13 +6,13 @@ html,
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(48, 48, 49);
+    background-color: rgb(77, 77, 80);
     padding-left: 150px;
     padding-right: 150px;
 }
 
 main {
-    width: 100%;
+    width: auto;
     background-color: #fff;
     height: auto;
     padding: 50px;
@@ -27,6 +27,7 @@ main {
     /* background-color: rgb(85, 121, 85); */
     justify-content: space-between;
     height: auto;
+    position: fixed;
 }
 
 .lefttext {
@@ -80,6 +81,7 @@ h1 {
 .profile {
     width: 400px;
     /* background-color: rgb(44, 43, 43); */
+    text-align: center;
 }
 
 .profile img {
@@ -98,21 +100,18 @@ h1 {
     flex-wrap: wrap-reverse;
     /* background-color: rgb(44, 69, 116); */
     justify-content: space-between;
-    overflow-y: scroll;
-    scrollbar-width: thin;
+    margin-top: 120px;
 }
 
 .bodytext {
     width: 500px;
     scrollbar-width: thin;
-    height: 465px;
 }
 
 .bodyadrees {
     width: 300px;
     color: #73808D;
     font-family: Arial;
-    height: 465px;
 }
 
 h5 {
@@ -144,6 +143,17 @@ label {
         color: #73808D;
         font-family: Arial;
         height: auto;
+    }
+    .profile {
+        width: 400px;
+        /* background-color: rgb(44, 43, 43); */
+        text-align: left;
+    }
+    .body {
+        margin-top: 180px;
+    }
+    .head {
+        margin-top: -25px;
     }
 }
 
